@@ -10,3 +10,4 @@ before_script:
   - cp environment.travis.rb environment.rb
   - mysql -e 'create database barkeep;'
   - ./script/run_migrations.rb
+script: "bundle exec rake test"
