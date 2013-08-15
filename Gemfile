@@ -80,6 +80,7 @@ group :test do
   gem "scope", ">= 0.2.3"
   gem "rack-test"
   gem "pry"
+  gem "travis-lint"
 end
 
 group :development do

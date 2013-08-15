@@ -1,0 +1,17 @@
+DB_HOST = "localhost"
+DB_PORT = 3306
+DB_NAME = "barkeep"
+DB_USER = "travis"
+DB_PASSWORD = ""
+REDIS_HOST = "localhost"
+REDIS_PORT = 6379
+OPENID_PROVIDERS = "https://www.google.com/accounts/o8/ud"
+BARKEEP_HOSTNAME = "localhost:8040"
+REPOS_ROOT = "barkeep_repos"
+RESQUE_WORKERS = 2
+RACK_ENV = "production"
+GMAIL_ADDRESS = "use_your_own_account@gmail.com"
+GMAIL_PASSWORD = "password!"
+COOKIE_SESSION_SECRET = "This should be a long, random, secret string."
+REDIS_DB = 0
+REDIS_DB_FOR_RESQUE = 1

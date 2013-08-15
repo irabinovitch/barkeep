@@ -1,0 +1,12 @@
+language: ruby
+rvm:
+  - "1.9.3"
+services:
+  - mysql
+  - redis-server
+before_install:
+  - git submodule update --init --recursive
+before_script:
+  - cp environment.travis.rb environment.rb
+  - mysql -e 'create database barkeep;'
+  - ./script/run_migrations.rb
